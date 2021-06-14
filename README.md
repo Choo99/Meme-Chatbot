@@ -5,7 +5,7 @@
 
 **Team Members:** 
 
-![](https://github.com/Choo99/Meme-Chatbot/blob/master/Neutral%20Beige%20Couple%20Anniversary%20Scrapbook%20Events%20and%20Special%20Interest%20Presentation.png =500x500)
+![](Team Members.png =500x500)
 
 **Objectives:**
 - 
