@@ -4,11 +4,8 @@
 **Project Title:** Meme ChabtBot
 
 **Team Members:** 
-- Khaw Ming Jie
-- Choo Dik Pong
-- Gui Qi Fang
-- Loh Chun Ren
 
+![](https://github.com/Choo99/Meme-Chatbot/blob/master/Neutral%20Beige%20Couple%20Anniversary%20Scrapbook%20Events%20and%20Special%20Interest%20Presentation.png =500x500)
 
 **Objectives:**
 - 
