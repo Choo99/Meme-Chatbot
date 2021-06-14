@@ -4,7 +4,9 @@ import random
 from prsaw import RandomStuff
 import emotional_detection 
 
+#Please place your bot token here!
 bot_token = ''
+
 client = discord.Client()
 api_key = 'HdRKCmeVl8zV'
 rs = RandomStuff(async_mode = True , api_key =api_key)

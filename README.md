@@ -5,7 +5,7 @@
 
 **Team Members:** 
 
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/Team%20Members.png)
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/Team%20Members.png)
 Figure 1 shows the team member of the project
 
 **Objectives:**
@@ -44,14 +44,14 @@ For the dataset, we'll be using an emotional training to train our chatbot to de
 
 Our dataset for training are shown as below:
 
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/dataset.png)
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
 
 Figure 3 shows the prepared dataset of our emotional training.
 The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category contain related meme pictures towards the emotion. 
 
 Our test data for training are shown as below:
 
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/test%20data.PNG)
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
 
 Figure 4 shows the dataset prepared by oursleves.
 The chatbot should detected the emotion in the sentence from user's input and reply. If the chatbot detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
@@ -76,7 +76,7 @@ To train our chatbot, firstly we redirect our chatbot to the google drive folder
 
 ## H.  GUIDE TO RUN
 1. Download all files in the github.
-2. Open python/discordBot.py
-3. Edit variable 'bot_token' in line 7 with your discord bot token.
-4. Open command prompt, change directory to python run command 'python discordBot.py'.
+2. Open src/python/discordBot.py
+3. Edit variable 'bot_token' in line 8 with your discord bot token.
+4. Open command prompt, change directory to src/python and run command 'python discordBot.py'.
 5. Invide your bot to your discord server and enjoy it!
