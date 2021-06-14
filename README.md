@@ -73,3 +73,10 @@ To train our chatbot, firstly we redirect our chatbot to the google drive folder
 
 
 ## G.  PRESENTATION
+
+## H.  GUIDE TO RUN
+1. Download all files in the github.
+2. Open python/discordBot.py
+3. Edit variable 'bot_token' in line 7 with your discord bot token.
+4. Open command prompt, change directory to python run command 'python discordBot.py'.
+5. Invide your bot to your discord server and enjoy it!
