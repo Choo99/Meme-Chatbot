@@ -6,9 +6,10 @@
 **Team Members:** 
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/Team%20Members.png)
+Figure 1 shows the team member of the project
 
 **Objectives:**
-- 
+
 - To create a chatbot that able to use meme in daily conversation as a form of entertainment for users.
 
 ## B. ABSTRACT
@@ -17,7 +18,7 @@
   In this AI project, deep learning is used to train our chatbot to analyse and classify the user's emotion accurately which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. When the user sent a message to the bot, the bot will choose randomly either reply a sentence only or a sentence with a meme image. If the bot is going to sent a meme, the bot will analyse the user's emotion and reply a suitable meme based on the user's emotion.
   
 ![Coding](https://www.todaysparent.com/wp-content/uploads/2017/06/when-your-kid-becomes-a-meme.jpg)
-Figure 1 shows the Meme about the working hours
+Figure 2 shows the Meme about the working hours
 
 ## C. DATASET
 In this project, we’ll discuss about meme chatbot, detailing how our computer vision/deep learning pipeline will be implemented.
@@ -41,7 +42,7 @@ In order to train a meme chatbot, we need to break our project into three distin
 
 For the dataset, we'll be using an emotional training to train our chatbot to detect the emotional input of the input. There are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
 
-Figure 2 shows the dataset of our temotional training.
+Figure 3 shows the dataset of our emotional training.
 
 Our goal is to train a meme chatbot to detect the emotional in the sentence of the input from a user and reply it with funny picture.
 
@@ -51,6 +52,7 @@ The following directory is our structure of our project:
 
 
 ## E. TRAINING
+To train our chatbot, firstly we redirect our chatbot to the google drive folders which contain all the meme photo.
 
 
 
