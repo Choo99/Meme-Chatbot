@@ -43,12 +43,16 @@ In order to train a meme chatbot, we need to break our project into three distin
 For the dataset, we'll be using an emotional training to train our chatbot to detect the emotional input of the input. There are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
 
 Our dataset for training are shown as below:
+
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/dataset.png)
+
 Figure 3 shows the prepared dataset of our emotional training.
 The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category contain related meme pictures towards the emotion. 
 
 Our test data for training are shown as below:
+
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/test%20data.PNG)
+
 Figure 4 shows the dataset prepared by oursleves.
 The chatbot should detected the emotion in the sentence from user's input and reply. If the chatbot detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
 
