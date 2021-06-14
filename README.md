@@ -5,7 +5,7 @@
 
 **Team Members:** 
 
-![](https://github.com/Choo99/Meme-Chatbot/blob/master/Team%20Members.png =500x500)
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/Team%20Members.png =500x500)
 
 **Objectives:**
 - 
