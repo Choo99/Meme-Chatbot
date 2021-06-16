@@ -44,7 +44,12 @@ For the dataset, there are 6 types of emotion will be categorised which is : Ang
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
 
+<<<<<<< HEAD
 Figure 5 shows the dataset from Tweet Emotion Dataset which is from nlp package
+=======
+Figure 4 shows the dataset prepared by oursleves.
+The model should detected the emotion in the sentence from user's input and reply. If the model detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
+>>>>>>> master
 
 This dataset consists of 16000 images belonging to six classes:
 - sadness: 4666 images
@@ -73,7 +78,7 @@ The notebook directory contains the record of our training process.
 The python directory contains the Python scripts that we use in this project. We'll reviewing three Python scripts:
 - discordBot.py: This scripts will implement our trained text emotional detection model and our chatbot into a discord bot.
 - emotional_detection.py: This scripts will using the trained model to detect the text emotion of user's input.
-- emotional_training.py: Accepts our input dataset and use it to create our emotional_model. A training gistory containing accuracy/ loss curves is also produced
+- emotional_training.py: Accepts our input dataset and use it to create our emotional_model. A training history containing accuracy/ loss curves is also produced
 - meme directory: A well categorised memes set by emotion, which is our dataset of memes when chatbot need to send a meme to users.
 
 
