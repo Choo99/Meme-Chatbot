@@ -56,7 +56,7 @@ Our test data for training are shown as below:
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
 
 Figure 4 shows the dataset prepared by oursleves.
-The chatbot should detected the emotion in the sentence from user's input and reply. If the chatbot detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
+The model should detected the emotion in the sentence from user's input and reply. If the model detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
 
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
