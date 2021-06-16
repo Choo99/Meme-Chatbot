@@ -57,6 +57,9 @@ Figure 4 shows the dataset prepared by oursleves.
 The chatbot should detected the emotion in the sentence from user's input and reply. If the chatbot detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
 
 
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
+Figure 5 shows the saple dataset prepared.
+
 Our goal is to train a meme chatbot to detect the emotional in the sentence of the input from a user and reply it with funny picture.
 
 ## D. PROJECT STRUCTURE
@@ -68,8 +71,15 @@ The following directory is our structure of our project:
 To train our chatbot, firstly we redirect our chatbot to the google drive folders which contain all the meme photo.
 
 
-
 ## F.  RESULT AND CONCLUSION
+The following is the test result of our model towards epochs of our training
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/graph.png)
+Figure 5 shows the graph of result of model training and validation
+
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/training.PNG)
+Figure 6 shows the result of training and validation
+
+From the picture above, we are able to get an 97.66% of training accuracy  and 88.20% of validation accurancy
 
 
 ## G.  PRESENTATION
