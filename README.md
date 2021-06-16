@@ -1,4 +1,4 @@
-# -Artificial Intelligent Project : Meme Chabot
+# -Artificial Intelligent Project : Text Emotional Detection in Meme Chabot
 ## A. PROJECT SUMMARY
 
 **Project Title:** Meme ChabtBot
@@ -23,77 +23,93 @@ Figure 1 shows the team member of the project
 Figure 2 shows the Meme about the working hours
 
 ## C. DATASET
-In this project, we’ll discuss about meme chatbot, detailing how our computer vision/deep learning pipeline will be implemented.
+In this project, we’ll discuss about text emotional detection model, detailing how our computer vision/deep learning pipeline will be implemented.
 
-From there, we’ll review the dataset we’ll be using to train our meme chatbot.
+From there, we’ll review the dataset we’ll be using to train our text emotional detection model.
 
-I’ll then show you how to implement a Python script to train a meme chatbot in Discord Application.
+We’ll then show you how to implement a Python script to train a text emotional detection model using keras and Tensorflow.
 
-We’ll use this Python script to train a meme chatbot and review the results.
-
-There is an example of the meme chatbot will be looked like as shown in Figure 2:
+We’ll use this Python script to train a text emotional detection model and review the results.
 
 In order to train a meme chatbot, we need to break our project into three distinct phases, each with its own respective sub-steps :
 
-- Preprocessing: we will focus about the pre-processing data of the development of the chatbot
+- Preprocessing: we will focus about the pre-processing data of the development of the text emotional detection model
 
-- Training: We will focus about how the chatbot will detect the key word or sentence of the input from user and reply them with some funny sentence 
+- Training: We will focus about how the model will detect the key word or sentence of the input from user
 
-- Deployment:After the chatbot is trained to reply, we will focus on the design of the meme chatbot like the colour and some icon design.
+- Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user base on user text emotion when user chat with our chatbot.
 
 
-For the dataset, we'll be using an emotional training to train our chatbot to detect the emotional input of the input. There are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
-
-Our dataset for training are shown as below:
-
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
-
-Figure 3 shows the prepared dataset of our emotional training.
-The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category contain related meme pictures towards the emotion. 
-
-Our test data for training are shown as below:
-
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
-
-Figure 4 shows the dataset prepared by oursleves.
-The chatbot should detected the emotion in the sentence from user's input and reply. If the chatbot detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
-
+For the dataset, there are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
 
-Figure 5 shows the sample dataset prepared.
+Figure 5 shows the dataset from Tweet Emotion Dataset which is from nlp package
 
-Our goal is to train a meme chatbot to detect the emotional in the sentence of the input from a user and reply it with funny picture.
+This dataset consists of 16000 images belonging to six classes:
+- sadness: 4666 images
+- anger = 2159 images
+- love = 1304 images
+- suprise = 572 images
+- fear = 1937 images
+- joy = 5362 images
+
+Our distribution of dataset for training are shown as below:
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
+
+Figure 3 shows the prepared dataset of our emotional training.
+The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category will contain related meme pictures towards the emotion.
+
 
 ## D. PROJECT STRUCTURE
 
 The following directory is our structure of our project:
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
+- 2 directories
+
+The notebook directory contains the record of our training process.
+
+The python directory contains the Python scripts that we use in this project. We'll reviewing three Python scripts:
+- discordBot.py: This scripts will implement our trained text emotional detection model and our chatbot into a discord bot.
+- emotional_detection.py: This scripts will using the trained model to detect the text emotion of user's input.
+- emotional_training.py: Accepts our input dataset and use it to create our emotional_model. A training gistory containing accuracy/ loss curves is also produced
+- meme directory: A well categorised memes set by emotion, which is our dataset of memes when chatbot need to send a meme to users.
 
 
 ## E. TRAINING
-To train our chatbot, firstly we redirect our chatbot to the google drive folders which contain all the meme photo.
+We are now ready to train our text emotional detection model using Keras, TensorFlow, and Deep Learning.
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/training.PNG)
 
 Figure 7 shows the result of training and validation
 
-From the picture above, we are able to get an 97.66% of training accuracy  and 88.20% of validation accurancy
+From the picture above, we are training our model for 500 steps and validate on 2000 samples in one epoch.
+As a result, our model able to get an 97.66% of training accuracy and 88.20% of validation accurancy
 
-## F.  RESULT AND CONCLUSION
-The following is the test result of our model towards epochs of our training
+The following is the training result of our model towards epochs of our training
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/graph.png)
 
-Figure 6 shows the graph of result of model training and validation
+Our test data for training are shown as below:
+
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
+
+Figure 4 shows the test data prepared by oursleves.
+As you can see, we are obtaining a model with high accurancy in detect our text emotion. It is predicted the correct result perfectly! Hope it will be archieve same high accurancy in our chatbot.
 
 
+## F.  RESULT AND CONCLUSION
+Now, our model is ready to detect emotion from text correctly. Let's implement it in our discord bot.
+Thanks to prsaw in provide a powerful package of chatbot. 
 
-
-## G.  PRESENTATION
-
-## H.  GUIDE TO RUN
+Launch discord bot with following instruction:
 1. Download all files in the github.
 2. Open src/python/discordBot.py
 3. Edit variable 'bot_token' in line 8 with your discord bot token.
 4. Open command prompt, change directory to src/python and run command 'python discordBot.py'.
 5. Invite your bot to your discord server and enjoy it!
+
+
+## G.  PRESENTATION
+
+
+
