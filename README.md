@@ -61,7 +61,7 @@ The chatbot should detected the emotion in the sentence from user's input and re
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
 
-Figure 5 shows the saple dataset prepared.
+Figure 5 shows the sample dataset prepared.
 
 Our goal is to train a meme chatbot to detect the emotional in the sentence of the input from a user and reply it with funny picture.
 
