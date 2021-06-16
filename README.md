@@ -49,7 +49,6 @@ Figure 5 shows the dataset from Tweet Emotion Dataset which is from nlp package
 =======
 Figure 4 shows the dataset prepared by oursleves.
 The model should detected the emotion in the sentence from user's input and reply. If the model detected that the emotion of sentence typed by user is sad, the chatbot will reply with words and releted meme pictures which is about sad. 
->>>>>>> master
 
 This dataset consists of 16000 images belonging to six classes:
 - sadness: 4666 images
@@ -60,6 +59,7 @@ This dataset consists of 16000 images belonging to six classes:
 - joy = 5362 images
 
 Our distribution of dataset for training are shown as below:
+
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
 
 Figure 3 shows the prepared dataset of our emotional training.
