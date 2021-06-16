@@ -68,6 +68,7 @@ Our goal is to train a meme chatbot to detect the emotional in the sentence of t
 ## D. PROJECT STRUCTURE
 
 The following directory is our structure of our project:
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
 
 
 ## E. TRAINING
