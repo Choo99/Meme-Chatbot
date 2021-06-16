@@ -96,4 +96,4 @@ Figure 6 shows the graph of result of model training and validation
 2. Open src/python/discordBot.py
 3. Edit variable 'bot_token' in line 8 with your discord bot token.
 4. Open command prompt, change directory to src/python and run command 'python discordBot.py'.
-5. Invide your bot to your discord server and enjoy it!
+5. Invite your bot to your discord server and enjoy it!
