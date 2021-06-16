@@ -59,6 +59,7 @@ This dataset consists of 16000 images belonging to six classes:
 - joy = 5362 images
 
 Our distribution of dataset for training are shown as below:
+
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
 
 Figure 3 shows the prepared dataset of our emotional training.
