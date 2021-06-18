@@ -20,7 +20,7 @@ Figure 1 shows the team member of the project
   
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/poster.png)
 
-Figure 2 shows the how our chatbot work
+Figure 2 shows that how our chatbot work
 
 ## C. DATASET
 In this project, we’ll discuss about text emotional detection model, detailing how our computer vision/deep learning pipeline will be implemented.
@@ -40,7 +40,7 @@ In order to train a meme chatbot, we need to break our project into three distin
 - Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user base on user text emotion when user chat with our chatbot.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
-Figure 3: Phases and individual steps for building a meme chatbot
+Figure 3 is the phases and individual steps for building a meme chatbot
 
 
 For the dataset, there are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
@@ -70,7 +70,7 @@ The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' 
 The following directory is our structure of our project:
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
-- Figure 6 shows 2 directories of our project which are notebook and python
+Figure 6 shows the 2 directories of our project which are notebook and python
 
 The notebook directory contains the record of our training process.
 
