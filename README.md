@@ -50,12 +50,12 @@ For the dataset, there are 6 types of emotion will be categorised which is : Ang
 Figure 4 shows the dataset from Tweet Emotion Dataset which is from nlp package
 
 This dataset consists of 16000 images belonging to six classes:
-- sadness: 4666 images
-- anger = 2159 images
-- love = 1304 images
-- suprise = 572 images
-- fear = 1937 images
-- joy = 5362 images
+- sadness: 4666 sentences
+- anger = 2159 sentences
+- love = 1304 sentences
+- suprise = 572 sentences
+- fear = 1937 sentences
+- joy = 5362 sentences
 
 Our distribution of dataset for training are shown as below:
 
