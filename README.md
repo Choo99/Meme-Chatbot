@@ -71,6 +71,7 @@ The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' 
 The following directory is our structure of our project:
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
+
 Figure 6 shows the 2 directories of our project which are notebook and python
 
 The notebook directory contains the record of our training process.
