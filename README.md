@@ -18,7 +18,7 @@ Figure 1 shows the team member of the project
   
   In this AI project, deep learning is used to train our chatbot to analyse and classify the user's emotion accurately which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. When the user sent a message to the bot, the bot will choose randomly either reply a sentence only or a sentence with a meme image. If the bot is going to sent a meme, the bot will analyse the user's emotion and reply a suitable meme based on the user's emotion.
   
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/poster.PNG)
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/poster.png)
 
 Figure 2 shows the how our chatbot work
 
@@ -38,6 +38,9 @@ In order to train a meme chatbot, we need to break our project into three distin
 - Training: We will focus about how the model will detect the key word or sentence of the input from user
 
 - Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user base on user text emotion when user chat with our chatbot.
+
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
+Figure 2: Phases and individual steps for building a meme chatbot
 
 
 For the dataset, there are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
