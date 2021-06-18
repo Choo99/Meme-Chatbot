@@ -40,6 +40,7 @@ In order to train a meme chatbot, we need to break our project into three distin
 - Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user base on user text emotion when user chat with our chatbot.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
+
 Figure 3 is the phases and individual steps for building a meme chatbot
 
 
