@@ -11,7 +11,7 @@ client = discord.Client()
 api_key = 'HdRKCmeVl8zV'
 rs = RandomStuff(async_mode = True , api_key =api_key)
 
-types = ['angry','fear','joy','love','sad','surprise']
+types = ['angry','fear','joy','love','sadness','surprise']
 memes = { 'angry':[],'fear':[],'joy':[],'love':[],'sadness':[],'surprise':[] }
 
 for type in types:
