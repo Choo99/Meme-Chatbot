@@ -116,6 +116,7 @@ Launch discord bot with following instruction:
 
 
 ## G.  PRESENTATION
+[![demo](https://img.youtube.com/vi/KBIYCv7_xrE/0.jpg)](https://youtu.be/KBIYCv7_xrE)
 
 ## H. ACKNOWLEDGEMENT
 * [Tweet emotional detection](https://www.coursera.org/projects/tweet-emotion-tensorflow)
