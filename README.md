@@ -117,5 +117,7 @@ Launch discord bot with following instruction:
 
 ## G.  PRESENTATION
 
-
-
+## H. ACKNOWLEDGEMENT
+* [Tweet emotional detection](https://www.coursera.org/projects/tweet-emotion-tensorflow)
+* [Chatbot package](https://pypi.org/project/prsaw/)
+* [Discord bot tutorial](https://realpython.com/how-to-make-a-discord-bot-python/)
