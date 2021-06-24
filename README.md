@@ -35,11 +35,11 @@ We’ll use this Python script to train a text emotional detection model and rev
 
 In order to train a meme chatbot, we need to break our project into three distinct phases, each with its own respective sub-steps :
 
-- Preprocessing: we will focus about the pre-processing data of the development of the text emotional detection model
+- Preprocessing: We will focus on the pre-processing data of the development of the text emotional detection model
 
-- Training: We will focus about how the model will detect the key word or sentence of the input from user
+- Training: We will focus about how the model will detect the emotion from the input of user
 
-- Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user based on user's text emotion when user chats with our chatbot.
+- Deployment: We'll implement our text emotional detection model to meme chatbot by using discord bot as medium. Randomly picked meme will send to user based on user's text emotion when user chats with our chatbot.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
 <p align="center">
@@ -100,9 +100,8 @@ The following is the training result of our model towards epochs of our training
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/graph.png)
 
 Our test data for training are shown as below:
-<p align="center">
+<p align="center" width="100%">
   <img src="https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG">
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG) 
 </p>
 <p align="center">
 Figure 8 : Prepared Test Data  
