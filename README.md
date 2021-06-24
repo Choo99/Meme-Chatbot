@@ -43,7 +43,7 @@ In order to train a meme chatbot, we need to break our project into three distin
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
 <p align="center">
-Figure 3 :  pPhases And Individual Steps For Building A Meme Chatbot
+Figure 3 :  Phases And Individual Steps For Building A Meme Chatbot
 </p>
 
 For the dataset, we will categorised the emotion into 6 types, which is : Anger, Saddness, Joy, Love, Fear and Surprise.
@@ -63,9 +63,9 @@ This dataset consists of 16000 sentences belonging to six classes:
 Our distribution of dataset for training are shown as below:
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
-<p align="center">
+
 Figure 5 : Prepared Dataset Of Our Emotional Training
-</p> 
+
 The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category will contain related meme pictures towards the emotion.
 
 
@@ -74,9 +74,9 @@ The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' 
 The following directory is our structure of our project:
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
-<p align="center">
+
 Figure 6 : 2 Directories Of Project（Notebook And Python）
-<p>
+
 The notebook directory contains the record of our training process.
 
 The python directory contains the Python scripts that we use in this project. We'll review three Python scripts:
@@ -101,7 +101,8 @@ The following is the training result of our model towards epochs of our training
 
 Our test data for training are shown as below:
 <p align="center">
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG
+  <img src="https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG">
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG) 
 </p>
 <p align="center">
 Figure 8 : Prepared Test Data  
