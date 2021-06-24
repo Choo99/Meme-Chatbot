@@ -6,8 +6,9 @@
 **Team Members:** 
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/Team%20Members.png)
-
+<p align="center">
 Figure 1 shows the team member of the project
+</p>
 
 **Objectives:**
 
