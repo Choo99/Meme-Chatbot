@@ -100,9 +100,10 @@ The following is the training result of our model towards epochs of our training
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/graph.png)
 
 Our test data for training are shown as below:
-<p align="center">
+<div style="text-align:center">
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
-
+<div>
+<p align="center">
 Figure 8 : Prepared Test Data  
 <p>
 As you can see, we are obtaining a model with high accuracy in detecting our text emotion. It has predicted the correct result perfectly! Hope it wille achieve the same accuracy in our chatbot.
