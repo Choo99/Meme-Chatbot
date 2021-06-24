@@ -22,7 +22,7 @@ Figure 1 : Team Members Of The Project
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/poster.png)
 <p align="center">
 Figure 2 : How The Chatbot Work
-<p>
+</p>
   
 ## C. DATASET
 In this project, we’ll discuss about text emotional detection model, detailing on how our computer vision/deep learning pipeline will be implemented.
@@ -44,14 +44,14 @@ In order to train a meme chatbot, we need to break our project into three distin
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
 <p align="center">
 Figure 3 :  pPhases And Individual Steps For Building A Meme Chatbot
-<p>
+</p>
 
 For the dataset, we will categorised the emotion into 6 types, which is : Anger, Saddness, Joy, Love, Fear and Surprise.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
 <p align="center">
 Figure 4 : Dataset From Tweet Emotion Dataset Which Is From nlp Package
-<p>
+</p>
 This dataset consists of 16000 sentences belonging to six classes:
 - sadness = 4666 sentences
 - anger = 2159 sentences
@@ -65,7 +65,7 @@ Our distribution of dataset for training are shown as below:
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
 <p align="center">
 Figure 5 : Prepared Dataset Of Our Emotional Training
-<p> 
+</p> 
 The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category will contain related meme pictures towards the emotion.
 
 
@@ -91,7 +91,7 @@ We are now ready to train our text emotional detection model using Keras, Tensor
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/training.PNG)
 <p align="center">
 Figure 7 : Result Of Training And Validation
-<p>
+</p>
   
 From the picture above, we are training our model for 500 steps and validate on 2000 samples in one epoch.
 As a result, our model are able to get 97.66% of training accuracy and 88.20% of validation accurancy
@@ -102,10 +102,10 @@ The following is the training result of our model towards epochs of our training
 Our test data for training are shown as below:
 <div style="text-align:center">
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
-<div>
+</div>
 <p align="center">
 Figure 8 : Prepared Test Data  
-<p>
+</p>
 As you can see, we are obtaining a model with high accuracy in detecting our text emotion. It has predicted the correct result perfectly! Hope it wille achieve the same accuracy in our chatbot.
 
 
