@@ -61,22 +61,23 @@ This dataset consists of 16000 sentences belonging to six classes:
 - joy = 5362 sentences
 
 Our distribution of dataset for training are shown as below:
+<p align="center" width="100%">
+  <img src="https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png">
+  Figure 5 : Prepared Dataset Of Our Emotional Training
+</p>
 
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/dataset.png)
 
-Figure 5 : Prepared Dataset Of Our Emotional Training
 
 The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' , 'Love' , 'Surprise' ,and 'Joy'. Each category will contain related meme pictures towards the emotion.
 
 
 ## D. PROJECT STRUCTURE
 
-The following directory is our structure of our project:
-
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
-
-Figure 6 : 2 Directories Of Project（Notebook And Python）
-
+The following directories are the structure of our project:
+<p align="center" width="100%">
+   <img src="https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG">
+  Figure 6 : 2 Directories Of The Project（Notebook And Python）
+</p>
 The notebook directory contains the record of our training process.
 
 The python directory contains the Python scripts that we use in this project. We'll review three Python scripts:
