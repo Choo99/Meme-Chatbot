@@ -74,9 +74,9 @@ The dataset that we used is categorised into 6 which are 'Angry', 'Fear', 'Sad' 
 The following directory is our structure of our project:
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/structure.PNG)
-
+<p align="center">
 Figure 6 : 2 Directories Of Project（Notebook And Python）
-
+<p>
 The notebook directory contains the record of our training process.
 
 The python directory contains the Python scripts that we use in this project. We'll review three Python scripts:
@@ -100,9 +100,9 @@ The following is the training result of our model towards epochs of our training
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/graph.png)
 
 Our test data for training are shown as below:
-
-![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
 <p align="center">
+![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
+
 Figure 8 : Prepared Test Data  
 <p>
 As you can see, we are obtaining a model with high accuracy in detecting our text emotion. It has predicted the correct result perfectly! Hope it wille achieve the same accuracy in our chatbot.
