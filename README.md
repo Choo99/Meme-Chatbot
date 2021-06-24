@@ -1,7 +1,7 @@
 # -Artificial Intelligent Project : Text Emotional Detection in Meme Chabot
 ## A. PROJECT SUMMARY
 
-**Project Title:** Meme ChabtBot
+**Project Title:** Meme ChatBot
 
 **Team Members:** 
 
@@ -23,7 +23,7 @@ Figure 1 shows the team member of the project
 Figure 2 shows that how our chatbot work
 
 ## C. DATASET
-In this project, we’ll discuss about text emotional detection model, detailing how our computer vision/deep learning pipeline will be implemented.
+In this project, we’ll discuss about text emotional detection model, detailing on how our computer vision/deep learning pipeline will be implemented.
 
 From there, we’ll review the dataset we’ll be using to train our text emotional detection model.
 
@@ -37,14 +37,14 @@ In order to train a meme chatbot, we need to break our project into three distin
 
 - Training: We will focus about how the model will detect the key word or sentence of the input from user
 
-- Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user base on user text emotion when user chat with our chatbot.
+- Deployment: We'll implement our text emotional detection model to our discord bot with our chatbot. Randomly picked meme will send to user based on user's text emotion when user chats with our chatbot.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/phase.png)
 
 Figure 3 is the phases and individual steps for building a meme chatbot
 
 
-For the dataset, there are 6 types of emotion will be categorised which is : Anger, Saddness, Joy, Love, Fear and Surprise.
+For the dataset, we will categorised the emotion into 6 types, which is : Anger, Saddness, Joy, Love, Fear and Surprise.
 
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/sample%20data.PNG)
 
@@ -76,7 +76,7 @@ Figure 6 shows the 2 directories of our project which are notebook and python
 
 The notebook directory contains the record of our training process.
 
-The python directory contains the Python scripts that we use in this project. We'll reviewing three Python scripts:
+The python directory contains the Python scripts that we use in this project. We'll review three Python scripts:
 - discordBot.py: This scripts will implement our trained text emotional detection model and our chatbot into a discord bot.
 - emotional_detection.py: This scripts will using the trained model to detect the text emotion of user's input.
 - emotional_training.py: Accepts our input dataset and use it to create our emotional_model. A training history containing accuracy/ loss curves is also produced
@@ -90,7 +90,7 @@ We are now ready to train our text emotional detection model using Keras, Tensor
 Figure 7 shows the result of training and validation
 
 From the picture above, we are training our model for 500 steps and validate on 2000 samples in one epoch.
-As a result, our model able to get an 97.66% of training accuracy and 88.20% of validation accurancy
+As a result, our model are able to get 97.66% of training accuracy and 88.20% of validation accurancy
 
 The following is the training result of our model towards epochs of our training
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/graph.png)
@@ -100,12 +100,12 @@ Our test data for training are shown as below:
 ![Coding](https://github.com/Choo99/Meme-Chatbot/blob/master/misc/test%20data.PNG)
 
 Figure 8 shows the test data prepared by oursleves.
-As you can see, we are obtaining a model with high accurancy in detect our text emotion. It is predicted the correct result perfectly! Hope it will be archieve same high accurancy in our chatbot.
+As you can see, we are obtaining a model with high accuracy in detecting our text emotion. It has predicted the correct result perfectly! Hope it wille achieve the same accuracy in our chatbot.
 
 
 ## F.  RESULT AND CONCLUSION
 Now, our model is ready to detect emotion from text correctly. Let's implement it in our discord bot.
-Thanks to prsaw in provide a powerful package of chatbot. 
+Thanks to prsaw in providing a powerful package of chatbot. 
 
 Launch discord bot with following instruction:
 1. Download all files in the github.
